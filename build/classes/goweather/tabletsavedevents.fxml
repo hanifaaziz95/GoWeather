@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.TabletsavedeventsController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@Images/concert.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="494.0" layoutX="325.0" layoutY="29.0">
+         <image>
+            <Image url="@imgy/line.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="469.0" layoutY="61.0" prefHeight="91.0" prefWidth="233.0" text="Saved Events:" textFill="WHITE">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="503.0" layoutX="320.0" layoutY="576.0">
+         <image>
+            <Image url="@imgy/line.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="74.0" layoutX="390.0" layoutY="59.0">
+         <image>
+            <Image url="@imgy/EVENTS%20ICON.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="469.0" layoutY="7.0" prefHeight="48.0" prefWidth="110.0" style="-fx-border-color: transparent;" />
+      <Label fx:id="location1" layoutX="427.0" layoutY="422.0" prefHeight="60.0" prefWidth="273.0" text="Hyde Park" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="event1" layoutX="447.0" layoutY="470.0" text="Wireless Festival" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="event3" layoutX="453.0" layoutY="615.0" text="FA Cup: Arsenal vs Manchester United" textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="location3" layoutX="438.0" layoutY="576.0" text="Wembley" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="event2" layoutX="453.0" layoutY="539.0" text="LoveBox " textFill="WHITE">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="location2" layoutX="426.0" layoutY="503.0" text="Victoria Park" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button layoutX="504.0" layoutY="7.0" mnemonicParsing="false" onAction="#backButton" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="80.0">
+               <image>
+                  <Image url="@imgy/sunglasses-pvc.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

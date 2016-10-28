@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.SavedEventsController">
+   <children>
+      <ImageView fitHeight="480.0" fitWidth="320.0">
+         <image>
+            <Image url="@Images/concert.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="171.0" opacity="0.39" prefHeight="200.0" prefWidth="233.0" style="-fx-background-color: black;" />
+      <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="17.0" layoutY="71.0">
+         <image>
+            <Image url="@Images/line.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="99.0" layoutY="88.0" prefHeight="91.0" prefWidth="233.0" text="Saved Events:" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="200.0" fitWidth="300.0" layoutX="11.0" layoutY="285.0">
+         <image>
+            <Image url="@Images/line.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="40.0" layoutY="96.0">
+         <image>
+            <Image url="@Images/EVENTS%20ICON.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="location1" layoutX="46.0" layoutY="179.0" text="Hyde Park" textFill="#fffefe" />
+      <Label fx:id="event1" layoutX="64.0" layoutY="196.0" text="Wireless Festival" textFill="WHITE" />
+      <Label fx:id="location2" layoutX="46.0" layoutY="232.0" text="Victoria Park" textFill="#fffefe" />
+      <Label fx:id="event2" layoutX="63.0" layoutY="248.0" text="LoveBox " textFill="WHITE" />
+      <Label fx:id="location3" layoutX="47.0" layoutY="285.0" text="Wembley" textFill="WHITE" />
+      <Label fx:id="event3" layoutX="62.0" layoutY="302.0" text="FA Cup Final" textFill="WHITE" />
+      <Button layoutX="118.0" layoutY="-6.0" mnemonicParsing="false" onAction="#backButton" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="80.0">
+               <image>
+                  <Image url="@../Images/sunglasses-pvc.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

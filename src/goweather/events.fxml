@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.EventsController">
+   <children>
+      <ImageView fitHeight="770.0" fitWidth="1025.0">
+         <image>
+            <Image url="@../../../../../Desktop/GoWeather/src/goweather/Images/img_0771.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="454.0" layoutY="112.0" text="30°" textFill="WHITE">
+         <font>
+            <Font size="82.0" />
+         </font>
+      </Label>
+      <Label fx:id="temp" layoutX="415.0" layoutY="181.0" prefHeight="91.0" prefWidth="237.0" text="Wembley" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="319.0" prefHeight="44.0" prefWidth="137.0" text="SNOWING" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="355.0" prefHeight="33.0" prefWidth="55.0" text="6:30" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="682.0" layoutY="90.0" prefHeight="33.0" prefWidth="112.0" text="Chance of rain" textFill="WHITE" />
+      <Label layoutX="682.0" layoutY="122.0" prefHeight="33.0" prefWidth="79.0" text="Visibility" textFill="WHITE" />
+      <Label layoutX="685.0" layoutY="163.0" prefHeight="25.0" prefWidth="81.0" text="Sunset" textFill="WHITE" />
+      <Label layoutX="687.0" layoutY="200.0" prefHeight="33.0" prefWidth="89.0" text="Wind speed" textFill="WHITE" />
+      <Label layoutX="841.0" layoutY="106.0" text="0%" textFill="#e4e0e0" />
+      <Label layoutX="840.0" layoutY="138.0" text="60%" textFill="#f2ecec" />
+      <Label layoutX="839.0" layoutY="166.0" text="19:00" textFill="#eee8e8" />
+      <Label layoutX="840.0" layoutY="195.0" text="15mph NE" textFill="#f5eaea" />
+      <ImageView fitHeight="55.0" fitWidth="49.0" layoutX="8.0" layoutY="707.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/locaiton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="480.0" layoutY="260.0" prefHeight="43.0" prefWidth="126.0" text="Event Name" />
+      <ImageView fitHeight="34.0" fitWidth="42.0" layoutX="976.0" layoutY="722.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Mobile-Smartphone-Tablet-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="280.0" fitWidth="412.0" layoutX="22.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/snow-icon.png" />
+         </image>
+      </ImageView>
+      <Slider layoutX="47.0" layoutY="514.0" prefHeight="34.0" prefWidth="905.0" />
+      <ImageView fitHeight="69.0" fitWidth="90.0" layoutX="478.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/sunglasses-pvc.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="10.0" layoutY="14.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="51.0" style="-fx-background-color: transparent;" />
+      <ImageView fitHeight="56.0" fitWidth="68.0" layoutX="10.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/search.png" />
+         </image>
+      </ImageView>
+      <MenuButton layoutX="930.0" layoutY="8.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="79.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Share Weather " />
+          <MenuItem mnemonicParsing="false" text="Saved Events" />
+            <MenuItem mnemonicParsing="false" text="Weather Warnings" />
+            <MenuItem mnemonicParsing="false" text="Edit Home Location" />
+            <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+        </items>
+      </MenuButton>
+   </children>
+</Pane>

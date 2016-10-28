@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.TabletwarningController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@imgy/bg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="390.0" layoutY="131.0" prefHeight="91.0" prefWidth="548.0" text="Weather Warnings:" textFill="WHITE">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="80.0" layoutX="324.0" layoutY="119.0">
+         <image>
+            <Image url="@imgy/yellow-lightning-bolt.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="615.0" layoutX="254.0" layoutY="129.0">
+         <image>
+            <Image url="@imgy/line.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="685.0" layoutX="229.0" layoutY="432.0">
+         <image>
+            <Image url="@imgy/line.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="522.0" prefHeight="60.0" prefWidth="80.0" style="-fx-border-color: transparent;" />
+      <Label layoutX="327.0" layoutY="316.0" prefHeight="44.0" prefWidth="458.0" style="-fx-background-color: white;" text="Flood warnings have been issued" textFill="#b91414">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="462.0" mnemonicParsing="false" onAction="#backButton" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="80.0">
+               <image>
+                  <Image url="@imgy/sunglasses-pvc.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

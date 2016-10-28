@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="goweather.TabletlocationController">
+   <children>
+      <ImageView fitHeight="768.0" fitWidth="1024.0">
+         <image>
+            <Image url="@imgy/bg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="362.0" layoutY="108.0" prefHeight="91.0" prefWidth="466.0" text="Enter Your Location:" textFill="#fffefe">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="271.0" layoutY="104.0">
+         <image>
+            <Image url="@imgy/locaiton.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="locationField" layoutX="302.0" layoutY="360.0" prefHeight="53.0" prefWidth="476.0" text="..." />
+      <Label layoutX="308.0" layoutY="410.0" prefHeight="94.0" prefWidth="435.0" text="This will be saved as your home location." textFill="#fffbfb">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="locationButton" layoutX="752.0" layoutY="474.0" mnemonicParsing="false" onAction="#locationButton" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="56.0">
+               <image>
+                  <Image url="@imgy/searchh.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="415.0" layoutY="17.0" mnemonicParsing="false" onAction="#locationButton" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="60.0" fitWidth="80.0">
+               <image>
+                  <Image url="@imgy/sunglasses-pvc.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>
